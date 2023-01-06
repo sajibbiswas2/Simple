@@ -1,0 +1,51 @@
+.prodect{
+    width: 300px;
+    height: 530px;
+    border: 1px solid salmon;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+}
+.prodect img {
+    width:286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+
+}
+.prodect-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.prodect-info{
+    padding: 7px;
+    margin: 0 14px;
+}
+.prodect-info p{
+    margin-bottom: 0;
+    margin: 5px;
+}
+
+.btn-cart{
+    width: 100%;
+    background: #FFE083;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-cart .cart-text{
+    margin-right: 10px;
+}
+.btn-cart:hover{
+    background-color: orange;
+    color:white;
+}
